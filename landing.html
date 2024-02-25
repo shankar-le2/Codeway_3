@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .features, .cta {
+            margin-bottom: 30px;
+        }
+        li{
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 10px black;
+            padding: 8px;
+            margin-right: 35%;
+            margin-left: 35%;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <main>
+        <section class="features">
+            <h2>Types of Dance</h2>
+            <ul>
+                <li>Kuchipudi</li><br>
+                <li>kathakali</li><br>
+                <li>Bharatanatyam</li><br>
+                <li>Folk Dance</li><br>
+                <li>Hip-hop</li><br>
+            </ul>
+        </section>
+
+        <section class="cta">
+            <h2>Sign Up Now!</h2>
+            <button onclick="signUp()">Sign Up</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Landing Page</p>
+    </footer>
+
+    <script>
+        function signUp() {
+            alert("Thank you for signing up!");
+        }
+    </script>
+</body>
+</html>
